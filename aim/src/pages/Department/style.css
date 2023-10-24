@@ -1,0 +1,17 @@
+
+.boxbutton{
+    padding: 20px 20px !important;
+    font-size: larger !important;
+    background-color: rgb(32, 180, 131) !important;
+    border: none !important;
+}
+.depname{
+    color: rgb(32, 180, 131) !important;
+}
+.yeasroffound{
+    color: rgb(198, 28, 28) !important;
+}
+p{
+    font-weight: 20px;
+    font-weight: 600;
+}
