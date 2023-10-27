@@ -23,10 +23,7 @@ const Section = () => {
           <Card className="mt-3 mb-3" style={{ width: "100" }}>
             <Card.Body>
               <Card.Title>Departments</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
+             
             </Card.Body>
           </Card>
         </Link>
@@ -34,10 +31,7 @@ const Section = () => {
           <Card style={{ width: "100" }}>
             <Card.Body>
               <Card.Title>Employees</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
+              
             </Card.Body>
           </Card>
         </Link>
@@ -45,10 +39,7 @@ const Section = () => {
           <Card className="mt-3" style={{ width: "100" }}>
             <Card.Body>
               <Card.Title>Department Heads</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </Card.Text>
+              
             </Card.Body>
           </Card>
         </Link>

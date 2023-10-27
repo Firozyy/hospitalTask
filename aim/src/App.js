@@ -16,6 +16,7 @@ import Login from './pages/Auth/Login';
 import EmployeDetails from './pages/employees/EmployeDetails';
 import DepartHeadDetails from './pages/DepartHead/DepartHeadDetails';
 import DepartmentDetails from './pages/Department/DepartmentDetails';
+import Footer from './Compenents/Footer';
 const App = () => {
   return (
     <Router>
@@ -32,6 +33,7 @@ const App = () => {
       <Route path='/department/:id' element={<DepartmentDetails/>}/>
       <Route path='/Login' element={<Login/>}/>
     </Routes>
+  
     </Router>
   )
 }
