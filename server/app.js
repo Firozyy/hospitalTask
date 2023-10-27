@@ -15,6 +15,14 @@ dotenv.config({path:"./config/.env"})
 //     methods:["GET","POST","DELETE","PUT",]
 
 // }))
+
+app.use(express.json())
+
+
+
+app.use(urlencoded({extended:true}))
+app.use("/api/v1",userRoutes)
+
 // build path
 const _filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(_filename)
@@ -26,15 +34,6 @@ app.use(express.static(buildPath));
 app.get('/*', (req,res)=>{
     res.sendFile(indexPage);
 });
-app.use(express.json())
-
-
-
-app.use(urlencoded({extended:true}))
-app.use("/api/v1",userRoutes)
-
-
-
 
 app.use(notFound)
 app.use(errorHandler);
