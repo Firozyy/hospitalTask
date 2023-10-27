@@ -14,7 +14,7 @@ const DepartmentList = () => {
   const { departmnet, error, loading } = useSelector(
     (state) => state.departmnet
   );
-  console.log(departmnet);
+
   useEffect(() => {
     if (userInfo && userInfo.isAdmin) {
       dispatch(getallDepartment());

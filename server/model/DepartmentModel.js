@@ -6,7 +6,18 @@ const Schema = mongoose.Schema(
       type: String,
       required: true,
     },
-  
+    departmentHead: [
+      {
+        type:String
+      }
+    ]
+     ,
+     team: [
+      {
+        type:String
+      }
+    ]
+     ,
     image: {
       public_id: {
           type: String,
